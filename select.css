@@ -1,0 +1,26 @@
+span{
+    display: inline-block;
+border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(200, 228, 253);
+    margin-right: 5px
+}
+
+.c1 span:nth-child(n+6) {
+    background-color: orange;
+}
+.c2 span:nth-child(-n+5) {
+    background-color: orange;
+}
+.c3 span:nth-child(4n+4) {
+    background-color: orange;
+}
+
+.c4 span:nth-child(n+7) {
+    background-color: orange;
+}
+
+.c5 span:nth-child(n+2) {
+    background-color: orange;
+}
